@@ -1,8 +1,8 @@
 body,
 h1 {
-  margin: 0 0 20px 0;
+  margin: 0;
 
- }
+}
 
 .header {
 
@@ -12,6 +12,43 @@ h1 {
   background-color: #8FBC8F;
 
 }
+
+.menu-container {
+  position: relative;
+  left: 580px;
+  display: inline-block;
+
+  margin-bottom: 10px;
+}
+
+.menubtn {
+  background-color: #F5F5F5;
+  color: #000000;
+  position: relative;
+
+
+
+  border: 1px solid #808080;
+  border-radius: 3px;
+}
+
+.menu-content {
+  display: none;
+  position: absolute;
+  right: 45px;
+  top: 50%;
+
+  background-color: #F5F5F5;
+  min-width: 120px;
+  padding: 10px 0;
+
+  z-index: 1;
+}
+
+.menu-container:hover .menu-content {
+  display: block;
+}
+
 
 h2 {
   padding: 1px;
@@ -27,7 +64,7 @@ section {
 
   padding-left: 10px;
   width: 360px;
- height: 180px;
+  height: 180px;
 
   position: absolute;
   left: 20px;
@@ -46,7 +83,7 @@ section {
   top: 180px;
 
   background-color: #9ACD32;
-  }
+}
 
 .works {
 
@@ -63,8 +100,7 @@ section {
 }
 
 .contacts {
-  
-  padding-left: 10px;
+  >padding-left: 10px;
   width: 360px;
   height: 180px;
 
@@ -73,5 +109,5 @@ section {
   top: 540px;
 
   background-color: #FA8072;
-  
+
 }
