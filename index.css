@@ -5,17 +5,20 @@ h1 {
 }
 
 .header {
-
+ 
+  position: relative;
   width: 100%;
 
   text-align: center;
   background-color: #8FBC8F;
 
+  padding-bottom: 30px;
+
 }
 
 .menu-container {
-  position: relative;
-  left: 580px;
+  position: absolute;
+  right: 80px;
   display: inline-block;
 
   margin-bottom: 10px;
